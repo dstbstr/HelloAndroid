@@ -1,10 +1,11 @@
 # About
 This is intended to be a starting point for creating an android app/game.
+
 Technologies used:
-	* Android
-	* OpenGL
-	* Dear Imgui (for rendering a UI)
-	* stb-image (for decoding png/jpg)
+* Android
+* OpenGL
+* Dear Imgui (for rendering a UI)
+* stb-image (for decoding png/jpg)
 
 # Building
 Consider adding a file called SplashScreen.jpg to src/main/assets
