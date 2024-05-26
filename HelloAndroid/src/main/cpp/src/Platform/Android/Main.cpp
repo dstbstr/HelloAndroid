@@ -45,7 +45,7 @@ static void handleAppCmd(android_app* app, int32_t appCmd) {
 
 void android_main(android_app* app) {
     Log::Initialize();
-    logListener = std::make_unique<GameLog>(Log::Filter());
+    logListener = std::make_unique<GameLog>(Log::Filter{});
     Log::Info("Logging initialized.");
 
 #ifdef DEBUG
